@@ -28,7 +28,8 @@ def grade(grade)
 end
   
 def sort 
-  roster.sort 
+  roster.each do |grade,names|
+    sort 
 end
   
 end
