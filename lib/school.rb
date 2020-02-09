@@ -29,7 +29,7 @@ end
   
 def sort 
   roster.each do |grade,names|
-    sort 
+    names.sort! 
 end
   
 end
